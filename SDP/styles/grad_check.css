@@ -1,0 +1,209 @@
+html {
+  background: rgba(74, 99, 176,.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 1em;
+  padding: 0;
+}
+/* main container styling */
+main {
+  width: 30em;
+  margin: auto;
+  /*border: 2px solid black;*/
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.352);
+  background-color: white;
+  padding: 1em;
+}
+h1, h3 {
+  text-align: center;
+  color: rgb(74, 99, 176);
+  /* text-shadow: 2px 2px 3px rgb(255, 204, 38); */
+  margin: 0 0 0.5em;
+}
+
+/* form label/input styling */
+  label {
+    width: 25%;
+    padding-right: 1em;
+    float: left;
+    text-align: right;
+    font-size: small;
+  }
+  /*table{border: 1px solid #b4b1b1}*/
+  table, th, td{
+    border-bottom: 1px solid #b4b1b1;
+    border-collapse: collapse;
+    /* background-color: rgb(244, 247, 255); */
+    text-align: left;
+    padding: 5px;
+  }
+  th{
+    text-align: center;
+    height: 20px;
+    background-color: rgb(74, 99, 176);
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {background-color: #ddd;}
+  caption {
+    font-size: large;
+    padding-bottom: 5px;
+    text-decoration: wavy;
+    color: rgb(74, 99, 176);
+    /* text-shadow: 2px 2px 2px rgba(255, 204, 38, 0.6); */
+  }
+  /* outline the required data */
+
+  /* search form */
+  .data,
+  label {
+    margin: auto;
+    font-size: small;
+    width: 40%;
+  }
+  .data,
+  span {
+    width: auto;
+  }
+  .returnLabel {
+    margin: 0;
+  }
+
+/* fieldset */
+  legend {
+    color: rgb(74, 99, 176);
+    font-weight: bold;
+  }
+  fieldset {
+    margin: 1em 0;
+  }
+
+/* nav bar */
+  ul {
+    list-style-type: none;
+    width: fit-content;
+    margin: 0px;
+    margin: 0px;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  .menu > li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    background-color: rgb(74, 99, 176);
+    text-align: center;
+    font-size: medium;
+    width: 11em;
+    padding: 3px 0 3px 0;
+    text-decoration: none;
+  }
+  .menu a:hover,
+  .menu a:focus {
+    outline: 0;
+    background-color: rgba(74, 99, 176, 0.857);
+    color: rgb(255, 204, 38);
+  }
+
+/* submenu */
+  .submenu {
+    display: none;
+    position: absolute;
+  }
+  .menu a:hover + .submenu,
+  .submenu:hover {
+    display: block;
+  }
+  .submenu a {
+    background-color: rgb(28, 67, 185);
+    color: white;
+    height: auto;
+    margin: 0;
+    padding: 8px;
+    /* box-shadow: 5px 5px 15px rgb(128, 128, 128); */
+  }
+
+/* footer styling */
+footer {
+  text-align: center;
+  font-size: 11px;
+  padding-right: 1em;
+}
+
+/* horizontally position buttons */
+#backButton {
+  text-align: center;
+}
+#backButton a {
+  text-decoration: none;
+}
+#divButtons {
+  text-align: center;
+}
+
+/*error msg*/
+#errMsg {
+  margin: 3em 0;
+  text-align: center;
+}
+
+/* button 46 CSS */
+.button-46 {
+  align-items: center;
+  background-color: rgb(74, 99, 176);
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  line-height: 15px;
+  max-width: 100%;
+  padding: 5px 22px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-46:active,
+.button-46:hover {
+  outline: 0;
+}
+
+.button-46:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+  .button-46 {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}
+
+
+.button1:hover {
+    color: rgb(61, 79, 88);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(109, 125, 134);
+    box-shadow: rgb(0 0 0 / 30%) 0px 4px 4px, rgb(231 238 236) 0px 0px 0px 3px;
+}
