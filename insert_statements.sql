@@ -377,461 +377,356 @@ INSERT INTO grad_students VALUES('93833','Chuck Doll','2077');
 -- ACCOUNTANCY 2022
 
 -- 11111
-INSERT INTO completed_courses VALUES ('ACCT_7073','11111');
-INSERT INTO completed_courses VALUES ('ACCT_7110','11111');
-INSERT INTO completed_courses VALUES ('ACCT_7333','11111');
-
-INSERT INTO completed_courses VALUES ('ACCT_6023','11111');
-INSERT INTO completed_courses VALUES ('ACCT_6083','11111');
-INSERT INTO completed_courses VALUES ('ACCT_7043','11111');
-INSERT INTO completed_courses VALUES ('ACCT_7273','11111');
-INSERT INTO completed_courses VALUES ('ACCT_7113','11111');
-
-INSERT INTO completed_courses VALUES ('MBA_7013','11111');
-INSERT INTO completed_courses VALUES ('CIS_6073','11111');
-INSERT INTO completed_courses VALUES ('FIN_6013','11111');
-
--- 12345
-INSERT INTO completed_courses VALUES ('ACCT_7073','12345');
-INSERT INTO completed_courses VALUES ('ACCT_7110','12345');
-INSERT INTO completed_courses VALUES ('ACCT_7333','12345');
-INSERT INTO completed_courses VALUES ('ACCT_6023','12345');
-INSERT INTO completed_courses VALUES ('ACCT_6083','12345');
-INSERT INTO completed_courses VALUES ('ACCT_6143','12345');
-INSERT INTO completed_courses VALUES ('ACCT_6163','12345');
-INSERT INTO completed_courses VALUES ('ACCT_6233','12345');
-INSERT INTO completed_courses VALUES ('ACCT_6253','12345');
-INSERT INTO completed_courses VALUES ('ACCT_6263','12345');
-INSERT INTO completed_courses VALUES ('ACCT_7043','12345');
-INSERT INTO completed_courses VALUES ('ACCT_7113','12345');
-INSERT INTO completed_courses VALUES ('ACCT_7243','12345');
-INSERT INTO completed_courses VALUES ('ACCT_7273','12345');
-INSERT INTO completed_courses VALUES ('ACCT_7283','12345');
-INSERT INTO completed_courses VALUES ('ACCT_7613','12345');
-
-
-INSERT INTO completed_courses VALUES ('MBA_7013','12345');
-INSERT INTO completed_courses VALUES ('MBA_7023','12345');
-INSERT INTO completed_courses VALUES ('MBA_7043','12345');
-INSERT INTO completed_courses VALUES ('MBA_7053','12345');
-INSERT INTO completed_courses VALUES ('MBA_7063','12345');
-INSERT INTO completed_courses VALUES ('MBA_7273','12345');
-INSERT INTO completed_courses VALUES ('MBA_7153','12345');
-INSERT INTO completed_courses VALUES ('MBA_7163','12345');
-INSERT INTO completed_courses VALUES ('CIS_6073','12345');
-INSERT INTO completed_courses VALUES ('IB_6013','12345');
-INSERT INTO completed_courses VALUES ('FIN_6013','12345');
-INSERT INTO completed_courses VALUES ('FIN_7093','12345');
-INSERT INTO completed_courses VALUES ('FIN_6113','12345');
-INSERT INTO completed_courses VALUES ('QM_7023','12345');
-INSERT INTO completed_courses VALUES ('QM_7063','12345');
-INSERT INTO completed_courses VALUES ('QM_7073','12345');
-
--- 23456
-INSERT INTO completed_courses VALUES ('ACCT_7073','23456');
-INSERT INTO completed_courses VALUES ('ACCT_7110','23456');
-INSERT INTO completed_courses VALUES ('ACCT_7333','23456');
-
-INSERT INTO completed_courses VALUES ('ACCT_6263','23456');
-INSERT INTO completed_courses VALUES ('ACCT_7113','23456');
-INSERT INTO completed_courses VALUES ('ACCT_7613','23456');
-INSERT INTO completed_courses VALUES ('ACCT_7243','23456');
-INSERT INTO completed_courses VALUES ('ACCT_7273','23456');
-
-INSERT INTO completed_courses VALUES ('MBA_7013','23456');
-INSERT INTO completed_courses VALUES ('IB_6013','23456');
-INSERT INTO completed_courses VALUES ('MBA_7153','23456');
-
--- 68436
-INSERT INTO completed_courses VALUES ('ACCT_7073','68436');
-INSERT INTO completed_courses VALUES ('ACCT_7110','68436');
-INSERT INTO completed_courses VALUES ('ACCT_7333','68436');
-
-INSERT INTO completed_courses VALUES ('ACCT_6263','68436');
-INSERT INTO completed_courses VALUES ('ACCT_6023','68436');
-INSERT INTO completed_courses VALUES ('ACCT_7613','68436');
-INSERT INTO completed_courses VALUES ('ACCT_6083','68436');
-INSERT INTO completed_courses VALUES ('ACCT_7113','68436');
-
-INSERT INTO completed_courses VALUES ('MBA_7023','68436');
-INSERT INTO completed_courses VALUES ('CIS_6073','68436');
-INSERT INTO completed_courses VALUES ('FIN_6013','68436');
-
--- 96853
-INSERT INTO completed_courses VALUES ('ACCT_7073','96853');
-INSERT INTO completed_courses VALUES ('ACCT_7333','96853');
-
-INSERT INTO completed_courses VALUES ('ACCT_6263','96853');
-INSERT INTO completed_courses VALUES ('ACCT_6023','96853');
-INSERT INTO completed_courses VALUES ('ACCT_7113','96853');
-
-INSERT INTO completed_courses VALUES ('QM_7063','96853');
-
--- Business Analytics 2033
-
--- 23142
-INSERT INTO completed_courses VALUES ('QM_7003','23142');
-INSERT INTO completed_courses VALUES ('QM_7023','23142');
-INSERT INTO completed_courses VALUES ('QM_7063','23142');
-INSERT INTO completed_courses VALUES ('QM_7073','23142');
-INSERT INTO completed_courses VALUES ('QM_7083','23142');
-INSERT INTO completed_courses VALUES ('QM_7093','23142');
-INSERT INTO completed_courses VALUES ('QM_7103','23142');
-INSERT INTO completed_courses VALUES ('QM_7111','23142');
-INSERT INTO completed_courses VALUES ('QM_7402','23142');
-INSERT INTO completed_courses VALUES ('QM_7503','23142');
-
-INSERT INTO completed_courses VALUES ('MBA_7163','23142');
-
--- 38629
-INSERT INTO completed_courses VALUES ('QM_7003','38629');
-INSERT INTO completed_courses VALUES ('QM_7023','38629');
-INSERT INTO completed_courses VALUES ('QM_7063','38629');
-INSERT INTO completed_courses VALUES ('QM_7073','38629');
-INSERT INTO completed_courses VALUES ('QM_7083','38629');
-INSERT INTO completed_courses VALUES ('QM_7093','38629');
-INSERT INTO completed_courses VALUES ('QM_7103','38629');
-INSERT INTO completed_courses VALUES ('QM_7111','38629');
-INSERT INTO completed_courses VALUES ('QM_7402','38629');
-INSERT INTO completed_courses VALUES ('QM_7503','38629');
-
-INSERT INTO completed_courses VALUES ('ACCT_6243','38629');
-
--- 74692
-INSERT INTO completed_courses VALUES ('QM_7003','74692');
-INSERT INTO completed_courses VALUES ('QM_7023','74692');
-INSERT INTO completed_courses VALUES ('QM_7063','74692');
-INSERT INTO completed_courses VALUES ('QM_7073','74692');
-INSERT INTO completed_courses VALUES ('QM_7083','74692');
-INSERT INTO completed_courses VALUES ('QM_7093','74692');
-INSERT INTO completed_courses VALUES ('QM_7103','74692');
-INSERT INTO completed_courses VALUES ('QM_7111','74692');
-INSERT INTO completed_courses VALUES ('QM_7402','74692');
-INSERT INTO completed_courses VALUES ('QM_7503','74692');
-
--- below line throws error: 'foreign key constraint fails - "course_id"
--- insert into completed_courses values ('CIS_7043','74692');
-
--- 84902
-INSERT INTO completed_courses VALUES ('QM_7003','84902');
-INSERT INTO completed_courses VALUES ('QM_7023','84902');
-INSERT INTO completed_courses VALUES ('QM_7063','84902');
-INSERT INTO completed_courses VALUES ('QM_7073','84902');
-INSERT INTO completed_courses VALUES ('QM_7083','84902');
-INSERT INTO completed_courses VALUES ('QM_7093','84902');
-
--- 38221
-INSERT INTO completed_courses VALUES ('QM_7003','38221');
-INSERT INTO completed_courses VALUES ('QM_7023','38221');
-INSERT INTO completed_courses VALUES ('QM_7063','38221');
-INSERT INTO completed_courses VALUES ('QM_7073','38221');
-INSERT INTO completed_courses VALUES ('QM_7083','38221');
-INSERT INTO completed_courses VALUES ('QM_7093','38221');
-INSERT INTO completed_courses VALUES ('QM_7103','38221');
-INSERT INTO completed_courses VALUES ('QM_7111','38221');
-INSERT INTO completed_courses VALUES ('QM_7402','38221');
-INSERT INTO completed_courses VALUES ('QM_7503','38221');
-
-INSERT INTO completed_courses VALUES ('FIN_7023','38221');
-
--- ENERGY BUSINESS 2044
-
--- 45421
-INSERT INTO completed_courses VALUES ('MEB_7001','45421');
-INSERT INTO completed_courses VALUES ('MEB_7010','45421');
-INSERT INTO completed_courses VALUES ('MEB_7020','45421');
-INSERT INTO completed_courses VALUES ('MEB_7023','45421');
-INSERT INTO completed_courses VALUES ('MEB_7033','45421');
-INSERT INTO completed_courses VALUES ('MEB_7043','45421');
-INSERT INTO completed_courses VALUES ('MEB_7053','45421');
-INSERT INTO completed_courses VALUES ('MEB_7063','45421');
-INSERT INTO completed_courses VALUES ('MEB_7073','45421');
-INSERT INTO completed_courses VALUES ('MEB_7173','45421');
-INSERT INTO completed_courses VALUES ('MEB_7183','45421');
-
-INSERT INTO completed_courses VALUES ('MEB_7083','45421');
-INSERT INTO completed_courses VALUES ('MEB_7123','45421');
-INSERT INTO completed_courses VALUES ('MEB_7143','45421');
-
--- 57839
-INSERT INTO completed_courses VALUES ('MEB_7001','57839');
-INSERT INTO completed_courses VALUES ('MEB_7010','57839');
-INSERT INTO completed_courses VALUES ('MEB_7020','57839');
-INSERT INTO completed_courses VALUES ('MEB_7023','57839');
-INSERT INTO completed_courses VALUES ('MEB_7033','57839');
-INSERT INTO completed_courses VALUES ('MEB_7043','57839');
-INSERT INTO completed_courses VALUES ('MEB_7053','57839');
-INSERT INTO completed_courses VALUES ('MEB_7063','57839');
-INSERT INTO completed_courses VALUES ('MEB_7073','57839');
-INSERT INTO completed_courses VALUES ('MEB_7173','57839');
-INSERT INTO completed_courses VALUES ('MEB_7183','57839');
-
-INSERT INTO completed_courses VALUES ('MEB_7163','57839');
-INSERT INTO completed_courses VALUES ('MEB_7193','57839');
-INSERT INTO completed_courses VALUES ('MEB_7083','57839');
-
--- 58372
-INSERT INTO completed_courses VALUES ('MEB_7001','58372');
-INSERT INTO completed_courses VALUES ('MEB_7010','58372');
-INSERT INTO completed_courses VALUES ('MEB_7020','58372');
-INSERT INTO completed_courses VALUES ('MEB_7023','58372');
-INSERT INTO completed_courses VALUES ('MEB_7033','58372');
-INSERT INTO completed_courses VALUES ('MEB_7043','58372');
-INSERT INTO completed_courses VALUES ('MEB_7053','58372');
-INSERT INTO completed_courses VALUES ('MEB_7063','58372');
-INSERT INTO completed_courses VALUES ('MEB_7073','58372');
-INSERT INTO completed_courses VALUES ('MEB_7173','58372');
-INSERT INTO completed_courses VALUES ('MEB_7183','58372');
-
-INSERT INTO completed_courses VALUES ('MEB_7143','58372');
-INSERT INTO completed_courses VALUES ('MEB_7123','58372');
-INSERT INTO completed_courses VALUES ('MEB_7193','58372');
-
--- 99871
-INSERT INTO completed_courses VALUES ('MEB_7001','99871');
-INSERT INTO completed_courses VALUES ('MEB_7010','99871');
-INSERT INTO completed_courses VALUES ('MEB_7020','99871');
-INSERT INTO completed_courses VALUES ('MEB_7023','99871');
-INSERT INTO completed_courses VALUES ('MEB_7033','99871');
-INSERT INTO completed_courses VALUES ('MEB_7043','99871');
-
-INSERT INTO completed_courses VALUES ('MEB_7163','99871');
-
--- BA Energy Manaement Track 2055
-
--- 12319
-INSERT INTO completed_courses VALUES ('MBA_7003','12319');
-INSERT INTO completed_courses VALUES ('MBA_7013','12319');
-INSERT INTO completed_courses VALUES ('MBA_7023','12319');
-INSERT INTO completed_courses VALUES ('MBA_7033','12319');
-INSERT INTO completed_courses VALUES ('MBA_7043','12319');
-INSERT INTO completed_courses VALUES ('MBA_7063','12319');
-INSERT INTO completed_courses VALUES ('MBA_7111','12319');
-INSERT INTO completed_courses VALUES ('MBA_7273','12319');
-INSERT INTO completed_courses VALUES ('MEB_7123','12319');
-
-INSERT INTO completed_courses VALUES ('MEB_7063','12319');
-INSERT INTO completed_courses VALUES ('MEB_7073','12319');
-INSERT INTO completed_courses VALUES ('MEB_7203','12319');
-INSERT INTO completed_courses VALUES ('MEB_7973','12319');
-
--- 34234
-INSERT INTO completed_courses VALUES ('MBA_7003','34234');
-INSERT INTO completed_courses VALUES ('MBA_7013','34234');
-INSERT INTO completed_courses VALUES ('MBA_7023','34234');
-INSERT INTO completed_courses VALUES ('MBA_7033','34234');
-
-INSERT INTO completed_courses VALUES ('MEB_7073','34234');
-INSERT INTO completed_courses VALUES ('MEB_7203','34234');
-
--- 58883
-INSERT INTO completed_courses VALUES ('MBA_7003','58883');
-INSERT INTO completed_courses VALUES ('MBA_7013','58883');
-INSERT INTO completed_courses VALUES ('MBA_7023','58883');
-INSERT INTO completed_courses VALUES ('MBA_7033','58883');
-INSERT INTO completed_courses VALUES ('MBA_7043','58883');
-INSERT INTO completed_courses VALUES ('MBA_7063','58883');
-INSERT INTO completed_courses VALUES ('MBA_7111','58883');
-INSERT INTO completed_courses VALUES ('MBA_7273','58883');
-INSERT INTO completed_courses VALUES ('MEB_7123','58883');
-
-INSERT INTO completed_courses VALUES ('MEB_7243','58883');
-INSERT INTO completed_courses VALUES ('MEB_7073','58883');
-INSERT INTO completed_courses VALUES ('MEB_7203','58883');
-INSERT INTO completed_courses VALUES ('MEB_7313','58883');
-
--- 83742
-INSERT INTO completed_courses VALUES ('MBA_7003','83742');
-INSERT INTO completed_courses VALUES ('MBA_7013','83742');
-INSERT INTO completed_courses VALUES ('MBA_7023','83742');
-INSERT INTO completed_courses VALUES ('MBA_7033','83742');
-INSERT INTO completed_courses VALUES ('MBA_7043','83742');
-INSERT INTO completed_courses VALUES ('MBA_7063','83742');
-INSERT INTO completed_courses VALUES ('MBA_7111','83742');
-
-INSERT INTO completed_courses VALUES ('MEB_7073','83742');
-INSERT INTO completed_courses VALUES ('MEB_7203','83742');
-
--- BUS ADMIN FULL TIME 2066
-
--- 48327
-INSERT INTO completed_courses VALUES ('MBA_7110','48327');
-INSERT INTO completed_courses VALUES ('MBA_7003','48327');
-INSERT INTO completed_courses VALUES ('MBA_7013','48327');
-INSERT INTO completed_courses VALUES ('MBA_7023','48327');
-INSERT INTO completed_courses VALUES ('MBA_7053','48327');
-INSERT INTO completed_courses VALUES ('MBA_7111','48327');
-INSERT INTO completed_courses VALUES ('MBA_7120','48327');
-INSERT INTO completed_courses VALUES ('MBA_7033','48327');
-INSERT INTO completed_courses VALUES ('MBA_7043','48327');
-INSERT INTO completed_courses VALUES ('MBA_7273','48327');
-INSERT INTO completed_courses VALUES ('MBA_7021','48327');
-INSERT INTO completed_courses VALUES ('MBA_7063','48327');
-INSERT INTO completed_courses VALUES ('MBA_7113','48327');
-
-INSERT INTO completed_courses VALUES ('MBA_7123','48327');
-INSERT INTO completed_courses VALUES ('MBA_7133','48327');
-INSERT INTO completed_courses VALUES ('MBA_7143','48327');
-
--- 85743
-INSERT INTO completed_courses VALUES ('MBA_7110','85743');
-INSERT INTO completed_courses VALUES ('MBA_7003','85743');
-INSERT INTO completed_courses VALUES ('MBA_7013','85743');
-INSERT INTO completed_courses VALUES ('MBA_7023','85743');
-INSERT INTO completed_courses VALUES ('MBA_7053','85743');
-INSERT INTO completed_courses VALUES ('MBA_7111','85743');
-
-INSERT INTO completed_courses VALUES ('MBA_7163','85743');
-
--- 93822
-INSERT INTO completed_courses VALUES ('MBA_7110','93822');
-INSERT INTO completed_courses VALUES ('MBA_7003','93822');
-INSERT INTO completed_courses VALUES ('MBA_7013','93822');
-INSERT INTO completed_courses VALUES ('MBA_7023','93822');
-INSERT INTO completed_courses VALUES ('MBA_7053','93822');
-INSERT INTO completed_courses VALUES ('MBA_7111','93822');
-INSERT INTO completed_courses VALUES ('MBA_7120','93822');
-INSERT INTO completed_courses VALUES ('MBA_7033','93822');
-INSERT INTO completed_courses VALUES ('MBA_7043','93822');
-INSERT INTO completed_courses VALUES ('MBA_7273','93822');
-INSERT INTO completed_courses VALUES ('MBA_7021','93822');
-INSERT INTO completed_courses VALUES ('MBA_7063','93822');
-INSERT INTO completed_courses VALUES ('MBA_7113','93822');
-
-INSERT INTO completed_courses VALUES ('MBA_7153','93822');
-INSERT INTO completed_courses VALUES ('MBA_7163','93822');
-INSERT INTO completed_courses VALUES ('MBA_7123','93822');
-
--- 98332
-INSERT INTO completed_courses VALUES ('MBA_7120','98332');
-INSERT INTO completed_courses VALUES ('MBA_7033','98332');
-INSERT INTO completed_courses VALUES ('MBA_7043','98332');
-INSERT INTO completed_courses VALUES ('MBA_7273','98332');
-INSERT INTO completed_courses VALUES ('MBA_7021','98332');
-INSERT INTO completed_courses VALUES ('MBA_7063','98332');
-INSERT INTO completed_courses VALUES ('MBA_7113','98332');
-INSERT INTO completed_courses VALUES ('MBA_7163','98332');
-
--- BUSINESS ADMIN HEALTH Care 2077
-
--- 24441
-INSERT INTO completed_courses VALUES ('HCDS_7010','24441');
-INSERT INTO completed_courses VALUES ('HCDS_7033','24441');
-INSERT INTO completed_courses VALUES ('MBA_7003','24441');
-INSERT INTO completed_courses VALUES ('MBA_7023','24441');
-INSERT INTO completed_courses VALUES ('HCDS_7020','24441');
-INSERT INTO completed_courses VALUES ('HCDS_7023','24441');
-INSERT INTO completed_courses VALUES ('MBA_7013','24441');
-INSERT INTO completed_courses VALUES ('HCDS_7030','24441');
-INSERT INTO completed_courses VALUES ('HCDS_7013','24441');
-INSERT INTO completed_courses VALUES ('HCDS_7040','24441');
-INSERT INTO completed_courses VALUES ('HCDS_7053','24441');
-INSERT INTO completed_courses VALUES ('MBA_7053','24441');
-INSERT INTO completed_courses VALUES ('HCDS_7110','24441');
-INSERT INTO completed_courses VALUES ('HCDS_7043','24441');
-INSERT INTO completed_courses VALUES ('MBA_7033','24441');
-
-INSERT INTO completed_courses VALUES ('CIS_6073','24441');
-INSERT INTO completed_courses VALUES ('LAW_5613','24441');
-
--- 33844
-INSERT INTO completed_courses VALUES ('HCDS_7010','33844');
-INSERT INTO completed_courses VALUES ('HCDS_7033','33844');
-INSERT INTO completed_courses VALUES ('MBA_7003','33844');
-INSERT INTO completed_courses VALUES ('MBA_7023','33844');
-INSERT INTO completed_courses VALUES ('HCDS_7020','33844');
-INSERT INTO completed_courses VALUES ('HCDS_7023','33844');
-INSERT INTO completed_courses VALUES ('MBA_7013','33844');
-INSERT INTO completed_courses VALUES ('HCDS_7030','33844');
-
-INSERT INTO completed_courses VALUES ('PSY_7003','33844');
-
--- 48221
-INSERT INTO completed_courses VALUES ('HCDS_7010','48221');
-INSERT INTO completed_courses VALUES ('HCDS_7033','48221');
-INSERT INTO completed_courses VALUES ('MBA_7003','48221');
-INSERT INTO completed_courses VALUES ('MBA_7023','48221');
-INSERT INTO completed_courses VALUES ('HCDS_7020','48221');
-INSERT INTO completed_courses VALUES ('HCDS_7023','48221');
-INSERT INTO completed_courses VALUES ('MBA_7013','48221');
-INSERT INTO completed_courses VALUES ('HCDS_7030','48221');
-INSERT INTO completed_courses VALUES ('HCDS_7013','48221');
-INSERT INTO completed_courses VALUES ('HCDS_7040','48221');
-INSERT INTO completed_courses VALUES ('HCDS_7053','48221');
-INSERT INTO completed_courses VALUES ('MBA_7053','48221');
-INSERT INTO completed_courses VALUES ('HCDS_7110','48221');
-INSERT INTO completed_courses VALUES ('HCDS_7043','48221');
-INSERT INTO completed_courses VALUES ('MBA_7033','48221');
-
-INSERT INTO completed_courses VALUES ('QM_7073','48221');
-INSERT INTO completed_courses VALUES ('CS_6643','48221');
-
-
--- 85443
-INSERT INTO completed_courses VALUES ('HCDS_7010','85443');
-INSERT INTO completed_courses VALUES ('HCDS_7033','85443');
-INSERT INTO completed_courses VALUES ('MBA_7003','85443');
-INSERT INTO completed_courses VALUES ('MBA_7023','85443');
-INSERT INTO completed_courses VALUES ('HCDS_7020','85443');
-INSERT INTO completed_courses VALUES ('HCDS_7023','85443');
-INSERT INTO completed_courses VALUES ('MBA_7013','85443');
-INSERT INTO completed_courses VALUES ('HCDS_7030','85443');
-INSERT INTO completed_courses VALUES ('HCDS_7013','85443');
-INSERT INTO completed_courses VALUES ('HCDS_7040','85443');
-INSERT INTO completed_courses VALUES ('HCDS_7053','85443');
-INSERT INTO completed_courses VALUES ('MBA_7053','85443');
-INSERT INTO completed_courses VALUES ('HCDS_7110','85443');
-INSERT INTO completed_courses VALUES ('HCDS_7043','85443');
-INSERT INTO completed_courses VALUES ('MBA_7033','85443');
-
-INSERT INTO completed_courses VALUES ('PSY_7063','85443');
-INSERT INTO completed_courses VALUES ('PSY_7153','85443');
--- 93833
-INSERT INTO completed_courses VALUES ('HCDS_7053','93833');
-INSERT INTO completed_courses VALUES ('MBA_7053','93833');
-INSERT INTO completed_courses VALUES ('HCDS_7110','93833');
-INSERT INTO completed_courses VALUES ('HCDS_7043','93833');
-INSERT INTO completed_courses VALUES ('MBA_7033','93833');
-
-INSERT INTO completed_courses VALUES ('PSY_7153','93833');
-
--- BUS ADMIN PART TIME 2088
-
--- 38191
-INSERT INTO completed_courses VALUES ('MBA_7003','38191');
-INSERT INTO completed_courses VALUES ('MBA_7013','38191');
-INSERT INTO completed_courses VALUES ('MBA_7023','38191');
-INSERT INTO completed_courses VALUES ('MBA_7033','38191');
-INSERT INTO completed_courses VALUES ('MBA_7043','38191');
-INSERT INTO completed_courses VALUES ('MBA_7053','38191');
-INSERT INTO completed_courses VALUES ('MBA_7063','38191');
-INSERT INTO completed_courses VALUES ('MBA_7273','38191');
-INSERT INTO completed_courses VALUES ('MBA_7111','38191');
-
-INSERT INTO completed_courses VALUES ('MBA_7123','38191');
-INSERT INTO completed_courses VALUES ('MBA_7133','38191');
-INSERT INTO completed_courses VALUES ('MBA_7143','38191');
-INSERT INTO completed_courses VALUES ('MBA_7153','38191');
-  
--- 83332
-INSERT INTO completed_courses VALUES ('MBA_7063','83332');
-INSERT INTO completed_courses VALUES ('MBA_7273','83332');
-INSERT INTO completed_courses VALUES ('MBA_7111','83332');
-
-INSERT INTO completed_courses VALUES ('MBA_7153','83332');
-
--- 90862
-INSERT INTO completed_courses VALUES ('MBA_7003','90862');
-INSERT INTO completed_courses VALUES ('MBA_7013','90862');
-INSERT INTO completed_courses VALUES ('MBA_7023','90862');
-INSERT INTO completed_courses VALUES ('MBA_7033','90862');
-INSERT INTO completed_courses VALUES ('MBA_7043','90862');
-INSERT INTO completed_courses VALUES ('MBA_7053','90862');
-INSERT INTO completed_courses VALUES ('MBA_7063','90862');
-INSERT INTO completed_courses VALUES ('MBA_7273','90862');
-INSERT INTO completed_courses VALUES ('MBA_7111','90862');
-
-INSERT INTO completed_courses VALUES ('MBA_7143','90862');
-INSERT INTO completed_courses VALUES ('MBA_7153','90862');
-INSERT INTO completed_courses VALUES ('MBA_7123','90862');
-INSERT INTO completed_courses VALUES ('MBA_7133','90862');
+insert into completed_courses values ('ACCT_6023','11111','A','Spring','2018');
+insert into completed_courses values ('ACCT_6083','11111','B','Fall','2019');
+insert into completed_courses values ('ACCT_7043','11111','C','Spring','2018');
+insert into completed_courses values ('ACCT_7073','11111','A','Fall','2019');
+insert into completed_courses values ('ACCT_7110','11111','A','Spring','2018');
+insert into completed_courses values ('ACCT_7113','11111','B','Fall','2019');
+insert into completed_courses values ('ACCT_7273','11111','C','Spring','2018');
+insert into completed_courses values ('ACCT_7333','11111','A','Fall','2019');
+insert into completed_courses values ('CIS_6073','11111','A','Spring','2018');
+insert into completed_courses values ('FIN_6013','11111','B','Fall','2019');
+insert into completed_courses values ('MBA_7013','11111','C','Spring','2018');
+insert into completed_courses values ('MBA_7003','12319','A','Fall','2019');
+insert into completed_courses values ('MBA_7013','12319','A','Spring','2018');
+insert into completed_courses values ('MBA_7023','12319','B','Fall','2019');
+insert into completed_courses values ('MBA_7033','12319','C','Spring','2018');
+insert into completed_courses values ('MBA_7043','12319','A','Fall','2019');
+insert into completed_courses values ('MBA_7063','12319','A','Spring','2018');
+insert into completed_courses values ('MBA_7111','12319','B','Fall','2019');
+insert into completed_courses values ('MBA_7273','12319','C','Spring','2018');
+insert into completed_courses values ('MEB_7063','12319','A','Fall','2019');
+insert into completed_courses values ('MEB_7073','12319','A','Spring','2018');
+insert into completed_courses values ('MEB_7123','12319','B','Fall','2019');
+insert into completed_courses values ('MEB_7203','12319','C','Spring','2018');
+insert into completed_courses values ('MEB_7973','12319','A','Fall','2019');
+insert into completed_courses values ('ACCT_6023','12345','A','Spring','2018');
+insert into completed_courses values ('ACCT_6083','12345','B','Fall','2019');
+insert into completed_courses values ('ACCT_6143','12345','C','Spring','2018');
+insert into completed_courses values ('ACCT_6163','12345','A','Fall','2019');
+insert into completed_courses values ('ACCT_6233','12345','A','Spring','2018');
+insert into completed_courses values ('ACCT_6253','12345','B','Fall','2019');
+insert into completed_courses values ('ACCT_6263','12345','C','Spring','2018');
+insert into completed_courses values ('ACCT_7043','12345','A','Fall','2019');
+insert into completed_courses values ('ACCT_7073','12345','A','Spring','2018');
+insert into completed_courses values ('ACCT_7110','12345','B','Fall','2019');
+insert into completed_courses values ('ACCT_7113','12345','C','Spring','2018');
+insert into completed_courses values ('ACCT_7243','12345','A','Fall','2019');
+insert into completed_courses values ('ACCT_7273','12345','A','Spring','2018');
+insert into completed_courses values ('ACCT_7283','12345','B','Fall','2019');
+insert into completed_courses values ('ACCT_7333','12345','C','Spring','2018');
+insert into completed_courses values ('ACCT_7613','12345','A','Fall','2019');
+insert into completed_courses values ('CIS_6073','12345','A','Spring','2018');
+insert into completed_courses values ('FIN_6013','12345','B','Fall','2019');
+insert into completed_courses values ('FIN_6113','12345','C','Spring','2018');
+insert into completed_courses values ('FIN_7093','12345','A','Fall','2019');
+insert into completed_courses values ('IB_6013','12345','A','Spring','2018');
+insert into completed_courses values ('MBA_7013','12345','B','Fall','2019');
+insert into completed_courses values ('MBA_7023','12345','C','Spring','2018');
+insert into completed_courses values ('MBA_7043','12345','A','Fall','2019');
+insert into completed_courses values ('MBA_7053','12345','A','Spring','2018');
+insert into completed_courses values ('MBA_7063','12345','B','Fall','2019');
+insert into completed_courses values ('MBA_7153','12345','C','Spring','2018');
+insert into completed_courses values ('MBA_7163','12345','A','Fall','2019');
+insert into completed_courses values ('MBA_7273','12345','A','Spring','2018');
+insert into completed_courses values ('QM_7023','12345','B','Fall','2019');
+insert into completed_courses values ('QM_7063','12345','C','Spring','2018');
+insert into completed_courses values ('QM_7073','12345','A','Fall','2019');
+insert into completed_courses values ('MBA_7163','23142','A','Spring','2018');
+insert into completed_courses values ('QM_7003','23142','B','Fall','2019');
+insert into completed_courses values ('QM_7023','23142','C','Spring','2018');
+insert into completed_courses values ('QM_7063','23142','A','Fall','2019');
+insert into completed_courses values ('QM_7073','23142','A','Spring','2018');
+insert into completed_courses values ('QM_7083','23142','B','Fall','2019');
+insert into completed_courses values ('QM_7093','23142','C','Spring','2018');
+insert into completed_courses values ('QM_7103','23142','A','Fall','2019');
+insert into completed_courses values ('QM_7111','23142','A','Spring','2018');
+insert into completed_courses values ('QM_7402','23142','B','Fall','2019');
+insert into completed_courses values ('QM_7503','23142','C','Spring','2018');
+insert into completed_courses values ('ACCT_6263','23456','A','Fall','2019');
+insert into completed_courses values ('ACCT_7073','23456','A','Spring','2018');
+insert into completed_courses values ('ACCT_7110','23456','B','Fall','2019');
+insert into completed_courses values ('ACCT_7113','23456','C','Spring','2018');
+insert into completed_courses values ('ACCT_7243','23456','A','Fall','2019');
+insert into completed_courses values ('ACCT_7273','23456','A','Spring','2018');
+insert into completed_courses values ('ACCT_7333','23456','B','Fall','2019');
+insert into completed_courses values ('ACCT_7613','23456','C','Spring','2018');
+insert into completed_courses values ('IB_6013','23456','A','Fall','2019');
+insert into completed_courses values ('MBA_7013','23456','A','Spring','2018');
+insert into completed_courses values ('MBA_7153','23456','B','Fall','2019');
+insert into completed_courses values ('CIS_6073','24441','C','Spring','2018');
+insert into completed_courses values ('HCDS_7010','24441','A','Fall','2019');
+insert into completed_courses values ('HCDS_7013','24441','A','Spring','2018');
+insert into completed_courses values ('HCDS_7020','24441','B','Fall','2019');
+insert into completed_courses values ('HCDS_7023','24441','C','Spring','2018');
+insert into completed_courses values ('HCDS_7030','24441','A','Fall','2019');
+insert into completed_courses values ('HCDS_7033','24441','A','Spring','2018');
+insert into completed_courses values ('HCDS_7040','24441','B','Fall','2019');
+insert into completed_courses values ('HCDS_7043','24441','C','Spring','2018');
+insert into completed_courses values ('HCDS_7053','24441','A','Fall','2019');
+insert into completed_courses values ('HCDS_7110','24441','A','Spring','2018');
+insert into completed_courses values ('LAW_5613','24441','B','Fall','2019');
+insert into completed_courses values ('MBA_7003','24441','C','Spring','2018');
+insert into completed_courses values ('MBA_7013','24441','A','Fall','2019');
+insert into completed_courses values ('MBA_7023','24441','A','Spring','2018');
+insert into completed_courses values ('MBA_7033','24441','B','Fall','2019');
+insert into completed_courses values ('MBA_7053','24441','C','Spring','2018');
+insert into completed_courses values ('HCDS_7010','33844','A','Fall','2019');
+insert into completed_courses values ('HCDS_7020','33844','A','Spring','2018');
+insert into completed_courses values ('HCDS_7023','33844','B','Fall','2019');
+insert into completed_courses values ('HCDS_7030','33844','C','Spring','2018');
+insert into completed_courses values ('HCDS_7033','33844','A','Fall','2019');
+insert into completed_courses values ('MBA_7003','33844','A','Spring','2018');
+insert into completed_courses values ('MBA_7013','33844','B','Fall','2019');
+insert into completed_courses values ('MBA_7023','33844','C','Spring','2018');
+insert into completed_courses values ('PSY_7003','33844','A','Fall','2019');
+insert into completed_courses values ('MBA_7003','34234','A','Spring','2018');
+insert into completed_courses values ('MBA_7013','34234','B','Fall','2019');
+insert into completed_courses values ('MBA_7023','34234','C','Spring','2018');
+insert into completed_courses values ('MBA_7033','34234','A','Fall','2019');
+insert into completed_courses values ('MEB_7073','34234','A','Spring','2018');
+insert into completed_courses values ('MEB_7203','34234','B','Fall','2019');
+insert into completed_courses values ('MBA_7003','38191','C','Spring','2018');
+insert into completed_courses values ('MBA_7013','38191','A','Fall','2019');
+insert into completed_courses values ('MBA_7023','38191','A','Spring','2018');
+insert into completed_courses values ('MBA_7033','38191','B','Fall','2019');
+insert into completed_courses values ('MBA_7043','38191','C','Spring','2018');
+insert into completed_courses values ('MBA_7053','38191','A','Fall','2019');
+insert into completed_courses values ('MBA_7063','38191','A','Spring','2018');
+insert into completed_courses values ('MBA_7111','38191','B','Fall','2019');
+insert into completed_courses values ('MBA_7123','38191','C','Spring','2018');
+insert into completed_courses values ('MBA_7133','38191','A','Fall','2019');
+insert into completed_courses values ('MBA_7143','38191','A','Spring','2018');
+insert into completed_courses values ('MBA_7153','38191','B','Fall','2019');
+insert into completed_courses values ('MBA_7273','38191','C','Spring','2018');
+insert into completed_courses values ('FIN_7023','38221','A','Fall','2019');
+insert into completed_courses values ('QM_7003','38221','A','Spring','2018');
+insert into completed_courses values ('QM_7023','38221','B','Fall','2019');
+insert into completed_courses values ('QM_7063','38221','C','Spring','2018');
+insert into completed_courses values ('QM_7073','38221','A','Fall','2019');
+insert into completed_courses values ('QM_7083','38221','A','Spring','2018');
+insert into completed_courses values ('QM_7093','38221','B','Fall','2019');
+insert into completed_courses values ('QM_7103','38221','C','Spring','2018');
+insert into completed_courses values ('QM_7111','38221','A','Fall','2019');
+insert into completed_courses values ('QM_7402','38221','A','Spring','2018');
+insert into completed_courses values ('QM_7503','38221','B','Fall','2019');
+insert into completed_courses values ('ACCT_6243','38629','C','Spring','2018');
+insert into completed_courses values ('QM_7003','38629','A','Fall','2019');
+insert into completed_courses values ('QM_7023','38629','A','Spring','2018');
+insert into completed_courses values ('QM_7063','38629','B','Fall','2019');
+insert into completed_courses values ('QM_7073','38629','C','Spring','2018');
+insert into completed_courses values ('QM_7083','38629','A','Fall','2019');
+insert into completed_courses values ('QM_7093','38629','A','Spring','2018');
+insert into completed_courses values ('QM_7103','38629','B','Fall','2019');
+insert into completed_courses values ('QM_7111','38629','C','Spring','2018');
+insert into completed_courses values ('QM_7402','38629','A','Fall','2019');
+insert into completed_courses values ('QM_7503','38629','A','Spring','2018');
+insert into completed_courses values ('MEB_7001','45421','B','Fall','2019');
+insert into completed_courses values ('MEB_7010','45421','C','Spring','2018');
+insert into completed_courses values ('MEB_7020','45421','A','Fall','2019');
+insert into completed_courses values ('MEB_7023','45421','A','Spring','2018');
+insert into completed_courses values ('MEB_7033','45421','B','Fall','2019');
+insert into completed_courses values ('MEB_7043','45421','C','Spring','2018');
+insert into completed_courses values ('MEB_7053','45421','A','Fall','2019');
+insert into completed_courses values ('MEB_7063','45421','A','Spring','2018');
+insert into completed_courses values ('MEB_7073','45421','B','Fall','2019');
+insert into completed_courses values ('MEB_7083','45421','C','Spring','2018');
+insert into completed_courses values ('MEB_7123','45421','A','Fall','2019');
+insert into completed_courses values ('MEB_7143','45421','A','Spring','2018');
+insert into completed_courses values ('MEB_7173','45421','B','Fall','2019');
+insert into completed_courses values ('MEB_7183','45421','C','Spring','2018');
+insert into completed_courses values ('CS_6643','48221','A','Fall','2019');
+insert into completed_courses values ('HCDS_7010','48221','A','Spring','2018');
+insert into completed_courses values ('HCDS_7013','48221','B','Fall','2019');
+insert into completed_courses values ('HCDS_7020','48221','C','Spring','2018');
+insert into completed_courses values ('HCDS_7023','48221','A','Fall','2019');
+insert into completed_courses values ('HCDS_7030','48221','A','Spring','2018');
+insert into completed_courses values ('HCDS_7033','48221','B','Fall','2019');
+insert into completed_courses values ('HCDS_7040','48221','C','Spring','2018');
+insert into completed_courses values ('HCDS_7043','48221','A','Fall','2019');
+insert into completed_courses values ('HCDS_7053','48221','A','Spring','2018');
+insert into completed_courses values ('HCDS_7110','48221','B','Fall','2019');
+insert into completed_courses values ('MBA_7003','48221','C','Spring','2018');
+insert into completed_courses values ('MBA_7013','48221','A','Fall','2019');
+insert into completed_courses values ('MBA_7023','48221','A','Spring','2018');
+insert into completed_courses values ('MBA_7033','48221','B','Fall','2019');
+insert into completed_courses values ('MBA_7053','48221','C','Spring','2018');
+insert into completed_courses values ('QM_7073','48221','A','Fall','2019');
+insert into completed_courses values ('MBA_7003','48327','A','Spring','2018');
+insert into completed_courses values ('MBA_7013','48327','B','Fall','2019');
+insert into completed_courses values ('MBA_7021','48327','C','Spring','2018');
+insert into completed_courses values ('MBA_7023','48327','A','Fall','2019');
+insert into completed_courses values ('MBA_7033','48327','A','Spring','2018');
+insert into completed_courses values ('MBA_7043','48327','B','Fall','2019');
+insert into completed_courses values ('MBA_7053','48327','C','Spring','2018');
+insert into completed_courses values ('MBA_7063','48327','A','Fall','2019');
+insert into completed_courses values ('MBA_7110','48327','A','Spring','2018');
+insert into completed_courses values ('MBA_7111','48327','B','Fall','2019');
+insert into completed_courses values ('MBA_7113','48327','C','Spring','2018');
+insert into completed_courses values ('MBA_7120','48327','A','Fall','2019');
+insert into completed_courses values ('MBA_7123','48327','A','Spring','2018');
+insert into completed_courses values ('MBA_7133','48327','B','Fall','2019');
+insert into completed_courses values ('MBA_7143','48327','C','Spring','2018');
+insert into completed_courses values ('MBA_7273','48327','A','Fall','2019');
+insert into completed_courses values ('MEB_7001','57839','A','Spring','2018');
+insert into completed_courses values ('MEB_7010','57839','B','Fall','2019');
+insert into completed_courses values ('MEB_7020','57839','C','Spring','2018');
+insert into completed_courses values ('MEB_7023','57839','A','Fall','2019');
+insert into completed_courses values ('MEB_7033','57839','A','Spring','2018');
+insert into completed_courses values ('MEB_7043','57839','B','Fall','2019');
+insert into completed_courses values ('MEB_7053','57839','C','Spring','2018');
+insert into completed_courses values ('MEB_7063','57839','A','Fall','2019');
+insert into completed_courses values ('MEB_7073','57839','A','Spring','2018');
+insert into completed_courses values ('MEB_7083','57839','B','Fall','2019');
+insert into completed_courses values ('MEB_7163','57839','C','Spring','2018');
+insert into completed_courses values ('MEB_7173','57839','A','Fall','2019');
+insert into completed_courses values ('MEB_7183','57839','A','Spring','2018');
+insert into completed_courses values ('MEB_7193','57839','B','Fall','2019');
+insert into completed_courses values ('MEB_7001','58372','C','Spring','2018');
+insert into completed_courses values ('MEB_7010','58372','A','Fall','2019');
+insert into completed_courses values ('MEB_7020','58372','A','Spring','2018');
+insert into completed_courses values ('MEB_7023','58372','B','Fall','2019');
+insert into completed_courses values ('MEB_7033','58372','C','Spring','2018');
+insert into completed_courses values ('MEB_7043','58372','A','Fall','2019');
+insert into completed_courses values ('MEB_7053','58372','A','Spring','2018');
+insert into completed_courses values ('MEB_7063','58372','B','Fall','2019');
+insert into completed_courses values ('MEB_7073','58372','C','Spring','2018');
+insert into completed_courses values ('MEB_7123','58372','A','Fall','2019');
+insert into completed_courses values ('MEB_7143','58372','A','Spring','2018');
+insert into completed_courses values ('MEB_7173','58372','B','Fall','2019');
+insert into completed_courses values ('MEB_7183','58372','C','Spring','2018');
+insert into completed_courses values ('MEB_7193','58372','A','Fall','2019');
+insert into completed_courses values ('MBA_7003','58883','A','Spring','2018');
+insert into completed_courses values ('MBA_7013','58883','B','Fall','2019');
+insert into completed_courses values ('MBA_7023','58883','C','Spring','2018');
+insert into completed_courses values ('MBA_7033','58883','A','Fall','2019');
+insert into completed_courses values ('MBA_7043','58883','A','Spring','2018');
+insert into completed_courses values ('MBA_7063','58883','B','Fall','2019');
+insert into completed_courses values ('MBA_7111','58883','C','Spring','2018');
+insert into completed_courses values ('MBA_7273','58883','A','Fall','2019');
+insert into completed_courses values ('MEB_7073','58883','A','Spring','2018');
+insert into completed_courses values ('MEB_7123','58883','B','Fall','2019');
+insert into completed_courses values ('MEB_7203','58883','C','Spring','2018');
+insert into completed_courses values ('MEB_7243','58883','A','Fall','2019');
+insert into completed_courses values ('MEB_7313','58883','A','Spring','2018');
+insert into completed_courses values ('ACCT_6023','68436','B','Fall','2019');
+insert into completed_courses values ('ACCT_6083','68436','C','Spring','2018');
+insert into completed_courses values ('ACCT_6263','68436','A','Fall','2019');
+insert into completed_courses values ('ACCT_7073','68436','A','Spring','2018');
+insert into completed_courses values ('ACCT_7110','68436','B','Fall','2019');
+insert into completed_courses values ('ACCT_7113','68436','C','Spring','2018');
+insert into completed_courses values ('ACCT_7333','68436','A','Fall','2019');
+insert into completed_courses values ('ACCT_7613','68436','A','Spring','2018');
+insert into completed_courses values ('CIS_6073','68436','B','Fall','2019');
+insert into completed_courses values ('FIN_6013','68436','C','Spring','2018');
+insert into completed_courses values ('MBA_7023','68436','A','Fall','2019');
+insert into completed_courses values ('QM_7003','74692','A','Spring','2018');
+insert into completed_courses values ('QM_7023','74692','B','Fall','2019');
+insert into completed_courses values ('QM_7063','74692','C','Spring','2018');
+insert into completed_courses values ('QM_7073','74692','A','Fall','2019');
+insert into completed_courses values ('QM_7083','74692','A','Spring','2018');
+insert into completed_courses values ('QM_7093','74692','B','Fall','2019');
+insert into completed_courses values ('QM_7103','74692','C','Spring','2018');
+insert into completed_courses values ('QM_7111','74692','A','Fall','2019');
+insert into completed_courses values ('QM_7402','74692','A','Spring','2018');
+insert into completed_courses values ('QM_7503','74692','B','Fall','2019');
+insert into completed_courses values ('MBA_7063','83332','C','Spring','2018');
+insert into completed_courses values ('MBA_7111','83332','A','Fall','2019');
+insert into completed_courses values ('MBA_7153','83332','A','Spring','2018');
+insert into completed_courses values ('MBA_7273','83332','B','Fall','2019');
+insert into completed_courses values ('MBA_7003','83742','C','Spring','2018');
+insert into completed_courses values ('MBA_7013','83742','A','Fall','2019');
+insert into completed_courses values ('MBA_7023','83742','A','Spring','2018');
+insert into completed_courses values ('MBA_7033','83742','B','Fall','2019');
+insert into completed_courses values ('MBA_7043','83742','C','Spring','2018');
+insert into completed_courses values ('MBA_7063','83742','A','Fall','2019');
+insert into completed_courses values ('MBA_7111','83742','A','Spring','2018');
+insert into completed_courses values ('MEB_7073','83742','B','Fall','2019');
+insert into completed_courses values ('MEB_7203','83742','C','Spring','2018');
+insert into completed_courses values ('QM_7003','84902','A','Fall','2019');
+insert into completed_courses values ('QM_7023','84902','A','Spring','2018');
+insert into completed_courses values ('QM_7063','84902','B','Fall','2019');
+insert into completed_courses values ('QM_7073','84902','C','Spring','2018');
+insert into completed_courses values ('QM_7083','84902','A','Fall','2019');
+insert into completed_courses values ('QM_7093','84902','A','Spring','2018');
+insert into completed_courses values ('HCDS_7010','85443','B','Fall','2019');
+insert into completed_courses values ('HCDS_7013','85443','C','Spring','2018');
+insert into completed_courses values ('HCDS_7020','85443','A','Fall','2019');
+insert into completed_courses values ('HCDS_7023','85443','A','Spring','2018');
+insert into completed_courses values ('HCDS_7030','85443','B','Fall','2019');
+insert into completed_courses values ('HCDS_7033','85443','C','Spring','2018');
+insert into completed_courses values ('HCDS_7040','85443','A','Fall','2019');
+insert into completed_courses values ('HCDS_7043','85443','A','Spring','2018');
+insert into completed_courses values ('HCDS_7053','85443','B','Fall','2019');
+insert into completed_courses values ('HCDS_7110','85443','C','Spring','2018');
+insert into completed_courses values ('MBA_7003','85443','A','Fall','2019');
+insert into completed_courses values ('MBA_7013','85443','A','Spring','2018');
+insert into completed_courses values ('MBA_7023','85443','B','Fall','2019');
+insert into completed_courses values ('MBA_7033','85443','C','Spring','2018');
+insert into completed_courses values ('MBA_7053','85443','A','Fall','2019');
+insert into completed_courses values ('PSY_7063','85443','A','Spring','2018');
+insert into completed_courses values ('PSY_7153','85443','B','Fall','2019');
+insert into completed_courses values ('MBA_7003','85743','C','Spring','2018');
+insert into completed_courses values ('MBA_7013','85743','A','Fall','2019');
+insert into completed_courses values ('MBA_7023','85743','A','Spring','2018');
+insert into completed_courses values ('MBA_7053','85743','B','Fall','2019');
+insert into completed_courses values ('MBA_7110','85743','C','Spring','2018');
+insert into completed_courses values ('MBA_7111','85743','A','Fall','2019');
+insert into completed_courses values ('MBA_7163','85743','A','Spring','2018');
+insert into completed_courses values ('MBA_7003','90862','B','Fall','2019');
+insert into completed_courses values ('MBA_7013','90862','C','Spring','2018');
+insert into completed_courses values ('MBA_7023','90862','A','Fall','2019');
+insert into completed_courses values ('MBA_7033','90862','A','Spring','2018');
+insert into completed_courses values ('MBA_7043','90862','B','Fall','2019');
+insert into completed_courses values ('MBA_7053','90862','C','Spring','2018');
+insert into completed_courses values ('MBA_7063','90862','A','Fall','2019');
+insert into completed_courses values ('MBA_7111','90862','A','Spring','2018');
+insert into completed_courses values ('MBA_7123','90862','B','Fall','2019');
+insert into completed_courses values ('MBA_7133','90862','C','Spring','2018');
+insert into completed_courses values ('MBA_7143','90862','A','Fall','2019');
+insert into completed_courses values ('MBA_7153','90862','A','Spring','2018');
+insert into completed_courses values ('MBA_7273','90862','B','Fall','2019');
+insert into completed_courses values ('MBA_7003','93822','C','Spring','2018');
+insert into completed_courses values ('MBA_7013','93822','A','Fall','2019');
+insert into completed_courses values ('MBA_7021','93822','A','Spring','2018');
+insert into completed_courses values ('MBA_7023','93822','B','Fall','2019');
+insert into completed_courses values ('MBA_7033','93822','C','Spring','2018');
+insert into completed_courses values ('MBA_7043','93822','A','Fall','2019');
+insert into completed_courses values ('MBA_7053','93822','A','Spring','2018');
+insert into completed_courses values ('MBA_7063','93822','B','Fall','2019');
+insert into completed_courses values ('MBA_7110','93822','C','Spring','2018');
+insert into completed_courses values ('MBA_7111','93822','A','Fall','2019');
+insert into completed_courses values ('MBA_7113','93822','A','Spring','2018');
+insert into completed_courses values ('MBA_7120','93822','B','Fall','2019');
+insert into completed_courses values ('MBA_7123','93822','C','Spring','2018');
+insert into completed_courses values ('MBA_7153','93822','A','Fall','2019');
+insert into completed_courses values ('MBA_7163','93822','A','Spring','2018');
+insert into completed_courses values ('MBA_7273','93822','B','Fall','2019');
+insert into completed_courses values ('HCDS_7043','93833','C','Spring','2018');
+insert into completed_courses values ('HCDS_7053','93833','A','Fall','2019');
+insert into completed_courses values ('HCDS_7110','93833','A','Spring','2018');
+insert into completed_courses values ('MBA_7033','93833','B','Fall','2019');
+insert into completed_courses values ('MBA_7053','93833','C','Spring','2018');
+insert into completed_courses values ('PSY_7153','93833','A','Fall','2019');
+insert into completed_courses values ('ACCT_6023','96853','A','Spring','2018');
+insert into completed_courses values ('ACCT_6263','96853','B','Fall','2019');
+insert into completed_courses values ('ACCT_7073','96853','C','Spring','2018');
+insert into completed_courses values ('ACCT_7113','96853','A','Fall','2019');
+insert into completed_courses values ('ACCT_7333','96853','A','Spring','2018');
+insert into completed_courses values ('QM_7063','96853','B','Fall','2019');
+insert into completed_courses values ('MBA_7021','98332','C','Spring','2018');
+insert into completed_courses values ('MBA_7033','98332','A','Fall','2019');
+insert into completed_courses values ('MBA_7043','98332','A','Spring','2018');
+insert into completed_courses values ('MBA_7063','98332','B','Fall','2019');
+insert into completed_courses values ('MBA_7113','98332','C','Spring','2018');
+insert into completed_courses values ('MBA_7120','98332','A','Fall','2019');
+insert into completed_courses values ('MBA_7163','98332','A','Spring','2018');
+insert into completed_courses values ('MBA_7273','98332','B','Fall','2019');
+insert into completed_courses values ('MEB_7001','99871','C','Spring','2018');
+insert into completed_courses values ('MEB_7010','99871','A','Fall','2019');
+insert into completed_courses values ('MEB_7020','99871','A','Spring','2018');
+insert into completed_courses values ('MEB_7023','99871','B','Fall','2019');
+insert into completed_courses values ('MEB_7033','99871','C','Spring','2018');
+insert into completed_courses values ('MEB_7043','99871','A','Fall','2019');
+insert into completed_courses values ('MEB_7163','99871','A','Spring','2018');
