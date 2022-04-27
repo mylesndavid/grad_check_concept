@@ -22,13 +22,13 @@ try {
     $select->bindValue('student_id', $student_id); //binds the local variable from the post to the sql variable in the db
     $select->execute();
     $data = $select->fetch();
-    $student_name_escaped = $data["student_name"];
-    $program_name_escaped = $data["program_name"];
-    if ($student_name_escaped == "" || $program_name_escaped == "") {
+    if ($data == "") {
         echoHeader('Error');
         echoError('Student with ID #' . $student_id . ' Does not exist. Please enter a valid Student ID');
         exit;
     }
+    $student_name_escaped = $data["student_name"];
+    $program_name_escaped = $data["program_name"];
 
 
     echoHeader("Student Progress");
@@ -53,8 +53,9 @@ try {
     ';
     $select->closeCursor();
 } catch (Exception $e) {
-    $selectError = 'Failed to select student information from the database.';
-    echoError($selectError);
+    //$selectError = 'Failed to select student information from the database.';
+    //echoError($selectError);
+    exit();
 } // end try catch -- student selection 
 
 //                              SELECT INCOMPLETE CORE COURSE ID AND NAME
@@ -120,7 +121,8 @@ try {
         die("Error");
     }
 } catch (PDOException $e) {
-    echo $e->getMessage();
+    //echo $e->getMessage();
+    exit();
 } // end try catch -- incomplete core courses
 
 
@@ -186,8 +188,9 @@ try {
     </table> </br>
     ';
 } catch (Exception $e) {
-    $selectError = 'Failed to select student information from the database.';
-    echoError($selectError);
+    //$selectError = 'Failed to select student information from the database.';
+    //echoError($selectError);
+    exit();
 } // end try catch -- electives table
 
 
@@ -226,8 +229,9 @@ try {
     $select->closeCursor();
     // DEBUG echo '<h3>Successful selection</h3>';
 } catch (Exception $e) {
-    $selectError = 'Failed to select student information from the database.';
-    echoError($selectError);
+    //$selectError = 'Failed to select student information from the database.';
+    //echoError($selectError);
+    exit();
 } // end try catch --completed courses table
 
 //back button
